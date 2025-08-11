@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>iso portfolio</title>
+    <style>
+
+        body{
+            margin: 0;
+            background-color:white;
+        }
+
+        @font-face {
+            font-family: dope;
+            src: url(ABCGravity-Condensed-Trial.woff2);
+        }
+
+        .scroll-container{
+            display: flex;
+            white-space: nowrap;
+            animation: scroll 300s linear infinite;
+        }
+
+        .text{
+            color:yellow;
+            background:black;
+            position: fixed;
+            top: 30px;
+            left:30px;
+            padding: 5px;
+            font-size: 35px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+
+        .scroll-container img{
+            height:100vh;
+            flex-shrink: 0;
+        }
+
+
+        .scrolling-text{
+            color: black;
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            background: yellow;
+            overflow: hidden;
+            z-index: 3000;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            font-size: 35px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .scrolling-inner{
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll-left 60s linear infinite;
+
+        }
+
+        @keyframes scroll-left{
+            0% {
+                transform: translateX(0%);
+            }
+            100%{
+                transform: translateX(-50%)
+            }
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(0%);
+            }
+            100%{
+                transform: translateX(-1550%)
+            }
+            
+        }
+
+    </style>
+</head>    
+
+<body>
+    <div class="scroll-container">
+
+        <img src="IMG_8850.jpg">
+        <img src="barbershop2.PNG">
+        <img src="utica pic 1.PNG">
+        <img src="bb12.PNG">
+        <img src="IMG_8573.jpg">
+        <img src="bm1.PNG">
+        <img src="IMG_3129.jpg"> 
+        <img src="bm2.PNG"> 
+        <img src="IMG_8676.jpg">  
+        <img src="bm3.jpg"> 
+        <img src="IMG_8834.jpg">
+        <img src="bm6.PNG">  
+        <img src="IMG_8802.jpg"> 
+        <img src="m4.jpg"> 
+        <img src="87707482-8c12-4cc3-9626-8955fc61b097.jpg">
+        <img src="m3.PNG">
+        <img src="IMG_3122.jpg">
+        <img src="IMG_8956.jpg">
+        <img src="m2.PNG">
+        <img src="IMG_8926.jpg">
+        <img src="IMG_3133.jpg">
+        <img src="IMG_8892.jpg">
+        <img src="IMG_8625.jpg">  
+        <img src="IMG_8813.jpg">
+        
+    </div>
+
+    <div class="text">
+         @ItsIsonah
+    </div>
+
+
+    <div class="scrolling-text">
+        <div class="scrolling-inner">
+            ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO
+            ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO
+            ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO
+            
+            ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO
+            ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO
+            ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO ISO PORTFOLIO
+        </div>
+    </div>
+
+</body>
+
+</html>
